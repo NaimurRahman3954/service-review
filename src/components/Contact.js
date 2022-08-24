@@ -3,7 +3,6 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="container mx-auto p-0 lg:p-12" id="contact">
-      {/* <h3>This is about me</h3> */}
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://i.ibb.co/34Fk56F/contact-1.png"
