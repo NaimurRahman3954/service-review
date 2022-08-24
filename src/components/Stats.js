@@ -25,7 +25,7 @@ const Stats = () => {
           <div className="stat-desc">Jan 1st, 2016 - Present</div>
         </div>
 
-        <div className="stat outline-0 outline-base-300">
+        <div className="stat outline outline-base-300">
           <div className="stat-figure text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
