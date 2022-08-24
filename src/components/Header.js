@@ -53,7 +53,7 @@ const Header = () => {
             to="/"
             className="btn btn-ghost normal-case text-xl font-bold text-primary"
           >
-            🇬🇧 IELTS Mentor
+            IELTS Mentor
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
