@@ -22,10 +22,14 @@ const Pricing = () => {
           </div> */}
           <div className="stat-title font-bold">Plan</div>
           <div className="stat-value text-secondary">$29/ month</div>
-          <div className="stat-desc">Unlimited access to PRO courses</div>
-          <div className="stat-desc">Quizzes with hand-picked meme prizes</div>
-          <div className="stat-desc">Invite to private Discord chat</div>
-          <div className="stat-desc">Free Sticker mailed to your door</div>
+          <div className="flex flex-col gap-1 text-start w-fit mx-auto bg-slate-40 my-3">
+            <div className="stat-desc">✅ Unlimited access to PRO courses</div>
+            <div className="stat-desc">
+              ✅ Quizzes with hand-picked meme prizes
+            </div>
+            <div className="stat-desc">✅ Invite to private Discord chat</div>
+            <div className="stat-desc">🔥 Free Sticker mailed to your door</div>
+          </div>
         </div>
 
         <div className="stat outline outline-t-1  outline-base-300">
