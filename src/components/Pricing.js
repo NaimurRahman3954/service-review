@@ -18,21 +18,6 @@ const Pricing = () => {
         </div>
 
         <div className="stat outline outline-t-1  outline-base-300">
-          <div className="stat-figure text-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-8 h-8 stroke-current"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M13 10V3L4 14h7v7l9-11h-7z"
-              ></path>
-            </svg>
-          </div>
           <div className="stat-title font-bold">New Registers</div>
           <div className="stat-value text-primary">4,200</div>
           <div className="stat-desc">↗︎ 400 (22% more than last month)</div>
