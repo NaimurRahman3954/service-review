@@ -17,11 +17,14 @@ const Home = () => {
         <button className="btn btn-primary mb-6">See All →</button>
       </Link>
       <AboutMe></AboutMe>
+      <Stats></Stats>
       <h1 className="text-5xl font-bold mt-32">
         Become a <span className="text-primary">Pro</span> Member
       </h1>
+      <p className="text-lg stat-title font-bold mt-3">
+        Get unlimited access to any service
+      </p>
       <Pricing></Pricing>
-      <Stats></Stats>
       <Contact></Contact>
     </div>
   )
