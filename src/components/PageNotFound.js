@@ -15,7 +15,9 @@ const PageNotFound = () => {
               The webpage you are looking for does not exist!
             </p>
             <Link to="/courses">
-              <button className="btn btn-primary mb-12">Explore Courses</button>
+              <button className="btn btn-primary mb-12">
+                Explore Our Services
+              </button>
             </Link>
           </div>
         </div>
