@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Banner from './Banner'
 
 const Home = () => {
   const [users, setUsers] = useState([])
@@ -37,6 +38,8 @@ const Home = () => {
 
   return (
     <div className="App">
+      <Banner></Banner>
+
       {/* user input form */}
       <form onSubmit={handleAddUser}>
         <input type="text" name="name" id="" placeholder="name" />
