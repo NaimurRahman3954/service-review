@@ -36,9 +36,9 @@ const Blog = () => {
           <div className="flex items-center justify-between mt-4">
             <a
               href="https://www.talend.com/resources/sql-vs-nosql/"
-              className="hover:underline text-purple-500"
+              className="hover:underline text-purple-600"
             >
-              Read more
+              Read more →
             </a>
           </div>
         </div>
@@ -73,9 +73,9 @@ const Blog = () => {
           <div className="flex items-center justify-between mt-4">
             <a
               href="https://www.akana.com/blog/what-is-jwt"
-              className="hover:underline text-purple-500"
+              className="hover:underline text-purple-600"
             >
-              Read more
+              Read more →
             </a>
           </div>
         </div>
@@ -109,9 +109,9 @@ const Blog = () => {
           <div className="flex items-center justify-between mt-4">
             <a
               href="https://www.geeksforgeeks.org/difference-between-node-js-and-javascript/"
-              className="hover:underline text-purple-500"
+              className="hover:underline text-purple-600"
             >
-              Read more
+              Read more →
             </a>
           </div>
         </div>
@@ -139,9 +139,9 @@ const Blog = () => {
           <div className="flex items-center justify-between mt-4">
             <a
               href="https://forum.golibrary.co/question/nodejs-multi-threaded-nodejs-handle-multiple-requests/"
-              className="hover:underline text-purple-500"
+              className="hover:underline text-purple-600"
             >
-              Read more
+              Read more →
             </a>
           </div>
         </div>

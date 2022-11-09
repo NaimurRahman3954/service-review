@@ -8,7 +8,7 @@ import image6 from '../assets/6.svg'
 
 const Banner = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <div className="carousel w-full border-1">
         <div id="slide1" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">

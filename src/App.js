@@ -5,7 +5,7 @@ import router from './routes/Router'
 
 function App() {
   return (
-    <div data-theme="light" className="container mx-auto">
+    <div className="">
       <RouterProvider router={router}></RouterProvider>
     </div>
   )

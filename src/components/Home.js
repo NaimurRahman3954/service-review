@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import AboutMe from './AboutMe'
 import Banner from './Banner'
+import Contact from './Contact'
 
 const Home = () => {
   const [users, setUsers] = useState([])
@@ -39,6 +41,8 @@ const Home = () => {
   return (
     <div className="App">
       <Banner></Banner>
+      <AboutMe></AboutMe>
+      <Contact></Contact>
 
       {/* user input form */}
       <form onSubmit={handleAddUser}>
