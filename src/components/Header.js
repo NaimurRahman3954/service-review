@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 import { AuthContext } from '../contexts/UserContext'
 
 const Header = () => {
-  //   const { user, logOut } = useContext(AuthContext)
-  //   console.log('context', user)
+  const { user, logOut } = useContext(AuthContext)
+  console.log('context', user)
 
-  //   const handleSignOut = () => {
-  //     logOut()
-  //       .then(() => {
-  //         // Sign-out successful.
-  //       })
-  //       .catch((error) => {
-  //         console.error(error)
-  //       })
-  //   }
+  const handleSignOut = () => {
+    logOut()
+      .then(() => {
+        // Sign-out successful.
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+  }
 
   const menuItems = (
     <>
@@ -25,9 +25,6 @@ const Header = () => {
         <Link to="/services" className="justify-between">
           Services
         </Link>
-      </li>
-      <li>
-        <Link to="/faq">FAQ</Link>
       </li>
       <li>
         <Link to="/blog">Blog</Link>
@@ -73,8 +70,7 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
-        {/* <div className="navbar-end">
-          <div className="mx-2"><Darkmode></Darkmode></div>
+        <div className="navbar-end">
           {!user?.uid && (
             <div>
               <Link className="mx-3 hidden lg:inline" to="/login">
@@ -103,7 +99,7 @@ const Header = () => {
               </div>
             </div>
           )}
-        </div> */}
+        </div>
       </div>
     </div>
   )

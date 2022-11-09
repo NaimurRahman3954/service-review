@@ -7,10 +7,10 @@ const Contact = () => {
       {/* <h3>This is about me</h3> */}
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={contactImage} className="max-w-lg" alt="" />
-        <div className="text-left p-10">
-          <div className="card  w-full max-w-lg  bg-base-100">
+        <div className="text-left">
+          <div className="card max-w-lg  bg-base-100">
             <div className="card-body">
-              <h1 className="text-5xl font-bold">Seats are Limited!</h1>
+              <h1 className="text-5xl font-bold mb-6">Seats are Limited!</h1>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Name</span>

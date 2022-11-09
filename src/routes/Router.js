@@ -3,7 +3,9 @@ import { createBrowserRouter } from 'react-router-dom'
 import AddReview from '../components/AddReview'
 import Blog from '../components/Blog'
 import Home from '../components/Home'
+import Login from '../components/Login'
 import PageNotFound from '../components/PageNotFound'
+import Register from '../components/Register'
 import Main from '../layout/Main'
 
 const router = createBrowserRouter([
@@ -28,14 +30,14 @@ const router = createBrowserRouter([
         path: '/blog',
         element: <Blog></Blog>,
       },
-      // {
-      //   path: '/login',
-      //   element: <Login></Login>,
-      // },
-      // {
-      //   path: '/register',
-      //   element: <Register></Register>,
-      // },
+      {
+        path: '/login',
+        element: <Login></Login>,
+      },
+      {
+        path: '/register',
+        element: <Register></Register>,
+      },
       // {
       //   path: '/courses/:id',
       //   element: <CourseDetails></CourseDetails>,

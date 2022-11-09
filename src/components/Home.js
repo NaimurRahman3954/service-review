@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AboutMe from './AboutMe'
 import Banner from './Banner'
 import Contact from './Contact'
+import Services from './Services'
 
 const Home = () => {
   const [users, setUsers] = useState([])
@@ -41,6 +42,7 @@ const Home = () => {
   return (
     <div className="App">
       <Banner></Banner>
+      <Services></Services>
       <AboutMe></AboutMe>
       <Contact></Contact>
 
