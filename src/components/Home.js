@@ -43,30 +43,13 @@ const Home = () => {
   return (
     <div className="App">
       <Banner></Banner>
-      <h1 className="text-5xl font-bold mb-6">Services I offer</h1>
+      <h1 className="text-5xl font-bold mt-12">Services I offer</h1>
       <Services></Services>
       <Link to="/services">
         <button className="btn btn-primary mb-6">See All →</button>
       </Link>
       <AboutMe></AboutMe>
       <Contact></Contact>
-
-      {/* user input form */}
-      <form onSubmit={handleAddUser}>
-        <input type="text" name="name" id="" placeholder="name" />
-        <br />
-        <input type="email" name="email" id="" placeholder="email" />
-        <br />
-        <button type="submit">Add User</button>
-      </form>
-
-      <div>
-        {users.map((user) => (
-          <p key={user.id}>
-            Name: {user.name} <br /> email: {user.email}
-          </p>
-        ))}
-      </div>
     </div>
   )
 }
