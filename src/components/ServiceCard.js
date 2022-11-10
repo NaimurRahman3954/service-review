@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 const ServiceCard = (props) => {
-  const { id, title, url, description, duration, students, price } =
+  const { _id, title, url, description, duration, students, price } =
     props.service
   return (
     <div>
@@ -76,7 +76,7 @@ const ServiceCard = (props) => {
                 />
               </div>
               <div className="card-actions justify-end w-full">
-                <Link to={`/services/${id}`}>
+                <Link to={`/services/${_id}`}>
                   <button className="btn btn-outline btn-primary">
                     Learn More
                   </button>

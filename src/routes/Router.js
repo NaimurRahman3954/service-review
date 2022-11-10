@@ -8,6 +8,7 @@ import PageNotFound from '../components/PageNotFound'
 import Register from '../components/Register'
 import Services from '../components/Services'
 import Main from '../layout/Main'
+import ServiceDetails from './ServiceDetails'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('http://localhost:8000/users'),
+        loader: () => fetch('http://localhost:8000/services'),
       },
       {
         path: '/home',
@@ -43,14 +44,12 @@ const router = createBrowserRouter([
         path: '/register',
         element: <Register></Register>,
       },
-      // {
-      //   path: '/courses/:id',
-      //   element: <CourseDetails></CourseDetails>,
-      //   loader: ({ params }) =>
-      //     fetch(
-      //       `https://cognition-learning-center-naimurrahman3954.vercel.app/courses/${params.id}`
-      //     ),
-      // },
+      {
+        path: '/services/:id',
+        element: <ServiceDetails></ServiceDetails>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:8000/services/${params.id}`),
+      },
       // {
       //   path: '/courses/:id/checkout',
       //   element: (
