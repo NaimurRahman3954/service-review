@@ -8,7 +8,7 @@ const ServiceCard = (props) => {
   return (
     <div>
       <div className="m-5">
-        <div className="card w-96 bg-base-200 outline outline-1 outline-base-300">
+        <div className="card w-96 outline outline-1 outline-base-300">
           <figure className="h-60 m-3">
             <PhotoProvider>
               <PhotoView src={url}>
@@ -16,7 +16,7 @@ const ServiceCard = (props) => {
               </PhotoView>
             </PhotoProvider>
           </figure>
-          <div className="card-body bg-base-100">
+          <div className="card-body bg-base-200">
             <h2 className="card-title">{title}</h2>
             <p className="text-sm text-justify py-2">
               {description.slice(0, 100)}...

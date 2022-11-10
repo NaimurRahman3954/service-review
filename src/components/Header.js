@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 import { AuthContext } from '../contexts/UserContext'
 
 const Header = () => {
-  // const { user, logOut } = useContext(AuthContext)
-  // console.log('context', user)
+  const { user, logOut } = useContext(AuthContext)
+  console.log('context', user)
 
-  // const handleSignOut = () => {
-  //   logOut()
-  //     .then(() => {
-  //       // Sign-out successful.
-  //     })
-  //     .catch((error) => {
-  //       console.error(error)
-  //     })
-  // }
+  const handleSignOut = () => {
+    logOut()
+      .then(() => {
+        // Sign-out successful.
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+  }
 
   const menuItems = (
     <>
@@ -29,17 +29,25 @@ const Header = () => {
       <li>
         <Link to="/blog">Blog</Link>
       </li>
+    </>
+  )
+
+  const privateMenuItems = (
+    <>
       <li>
-        <button className="btn btn-outline btn-primary">
-          <Link to="/login">Login</Link>
-        </button>
+        <Link to="/myreviews">My Reviews</Link>
+      </li>
+      <li>
+        <Link to="/addservice" className="justify-between">
+          Add Service
+        </Link>
       </li>
     </>
   )
 
   return (
-    <div className="navbar bg-base-200">
-      <div className="container mx-auto py-2">
+    <div className=" bg-base-200 mx-auto py-2">
+      <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -63,6 +71,7 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {menuItems}
+              {privateMenuItems}
             </ul>
           </div>
           <Link
@@ -72,25 +81,22 @@ const Header = () => {
             🇬🇧 IELTS Mentor
           </Link>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
-        {/* <div className="navbar-end">
+        <div className="navbar-end">
           {!user?.uid && (
             <div>
-              <Link className="mx-3 hidden lg:inline" to="/login">
-                Log in
-              </Link>
-              <Link className="btn mx-1" to="/register">
-                Register
+              <Link className="btn btn-outline btn-primary mx-1" to="/login">
+                Login
               </Link>
             </div>
           )}
           {user?.uid && (
-            <div
-              className="flex items-center tooltip tooltip-bottom"
-              data-tip={user.displayName}
-            >
+            <div className="flex items-center">
+              <div className="menu menu-horizontal p-0 hidden lg:flex">
+                {privateMenuItems}
+              </div>
               <div>
                 <button onClick={handleSignOut} className="btn btn-sm">
                   Log Out
@@ -104,7 +110,7 @@ const Header = () => {
               </div>
             </div>
           )}
-        </div> */}
+        </div>
       </div>
     </div>
   )

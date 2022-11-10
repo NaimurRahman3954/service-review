@@ -2,13 +2,14 @@ import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import AddReview from '../components/AddReview'
 import Blog from '../components/Blog'
+import Checkout from '../components/Checkout'
 import Home from '../components/Home'
 import Login from '../components/Login'
 import PageNotFound from '../components/PageNotFound'
 import Register from '../components/Register'
+import ServiceDetails from '../components/ServiceDetails'
 import Services from '../components/Services'
 import Main from '../layout/Main'
-import ServiceDetails from './ServiceDetails'
 
 const router = createBrowserRouter([
   {
@@ -50,18 +51,12 @@ const router = createBrowserRouter([
         loader: ({ params }) =>
           fetch(`http://localhost:8000/services/${params.id}`),
       },
-      // {
-      //   path: '/courses/:id/checkout',
-      //   element: (
-      //     <PrivateRoute>
-      //       <Checkout></Checkout>
-      //     </PrivateRoute>
-      //   ),
-      //   loader: ({ params }) =>
-      //     fetch(
-      //       `https://cognition-learning-center-naimurrahman3954.vercel.app/courses/${params.id}`
-      //     ),
-      // },
+      {
+        path: '/services/:id/checkout',
+        element: <Checkout></Checkout>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:8000/services/${params.id}`),
+      },
     ],
   },
   {
