@@ -7,7 +7,9 @@ const Services = () => {
   const [loading, setloading] = useState(true)
 
   useEffect(() => {
-    fetch('http://localhost:8000/services')
+    fetch(
+      'https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/services'
+    )
       .then((res) => res.json())
       .then((data) => {
         setServices(data)

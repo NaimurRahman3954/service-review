@@ -21,7 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('http://localhost:8000/services'),
+        loader: () =>
+          fetch(
+            'https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/services'
+          ),
       },
       {
         path: '/home',
@@ -51,13 +54,17 @@ const router = createBrowserRouter([
         path: '/services/:id',
         element: <ServiceDetails></ServiceDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:8000/services/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/services/${params.id}`
+          ),
       },
       {
         path: '/services/:id/checkout',
         element: <Checkout></Checkout>,
         loader: ({ params }) =>
-          fetch(`http://localhost:8000/services/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/services/${params.id}`
+          ),
       },
       {
         path: '/myreviews/',
@@ -66,7 +73,10 @@ const router = createBrowserRouter([
             <MyReviews></MyReviews>
           </PrivateRoute>
         ),
-        loader: ({ params }) => fetch(`http://localhost:8000/reviews/`),
+        loader: ({ params }) =>
+          fetch(
+            `https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/reviews/`
+          ),
       },
     ],
   },

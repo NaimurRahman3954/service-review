@@ -6,7 +6,9 @@ const MyReviews = () => {
   const { user } = useContext(AuthContext)
   const [reviews, setReviews] = useState([])
   useEffect(() => {
-    fetch('http://localhost:8000/reviews')
+    fetch(
+      'https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/reviews'
+    )
       .then((res) => res.json())
       .then((data) => {
         const newReviews = data
