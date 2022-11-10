@@ -11,7 +11,7 @@ const Services = () => {
   }, [])
   return (
     <div className="container mx-auto my-10 text-center">
-      <div className="flex flex-wrap align-middle">
+      <div className="flex flex-wrap align-middle justify-center">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service}></ServiceCard>
         ))}
