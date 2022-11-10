@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { AuthContext } from '../contexts/UserContext'
+import MyReviewCard from './MyReviewCard'
 
 const MyReviews = () => {
+  const { user } = useContext(AuthContext)
+  const [reviews, setReviews] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:8000/reviews')
+      .then((res) => res.json())
+      .then((data) => {
+        const newReviews = data
+        //   const newReviews = [...reviews, data]
+        setReviews(newReviews)
+      })
+  }, [user?.displayName])
+
   return (
-    <div>
-      <div>
-        <h3>I'm gonna add my reviews here'</h3>
+    <div className="container mx-auto my-10 text-center">
+      <div className="flex flex-wrap align-middle justify-center">
+        {reviews.map((review) => (
+          <MyReviewCard key={review.name} review={review}></MyReviewCard>
+        ))}
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ const Contact = () => {
           alt=""
         />
         <div className="text-left">
-          <div className="card max-w-lg  bg-base-100">
+          <div className="card max-w-lg bg-base-100">
             <div className="card-body">
               <h1 className="text-5xl font-bold mb-6">Seats are Limited!</h1>
               <div className="form-control">

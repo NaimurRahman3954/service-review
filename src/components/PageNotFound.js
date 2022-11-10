@@ -15,9 +15,9 @@ const PageNotFound = () => {
             <p className="py-6">
               The webpage you are looking for does not exist!
             </p>
-            <Link to="/courses">
+            <Link to="/services">
               <button className="btn btn-primary mb-12">
-                Explore Our Services
+                Explore my Services
               </button>
             </Link>
           </div>

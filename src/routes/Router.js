@@ -5,11 +5,13 @@ import Blog from '../components/Blog'
 import Checkout from '../components/Checkout'
 import Home from '../components/Home'
 import Login from '../components/Login'
+import MyReviews from '../components/MyReviews'
 import PageNotFound from '../components/PageNotFound'
 import Register from '../components/Register'
 import ServiceDetails from '../components/ServiceDetails'
 import Services from '../components/Services'
 import Main from '../layout/Main'
+import PrivateRoute from './PrivateRoute'
 
 const router = createBrowserRouter([
   {
@@ -56,6 +58,15 @@ const router = createBrowserRouter([
         element: <Checkout></Checkout>,
         loader: ({ params }) =>
           fetch(`http://localhost:8000/services/${params.id}`),
+      },
+      {
+        path: '/myreviews/',
+        element: (
+          <PrivateRoute>
+            <MyReviews></MyReviews>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) => fetch(`http://localhost:8000/reviews/`),
       },
     ],
   },

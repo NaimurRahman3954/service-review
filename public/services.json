@@ -1,62 +1,188 @@
 [
    {
-     "id": 1,
      "title": "Computer-delivered Mock Test",
      "url": "https://i.ibb.co/q0p5DQt/1-1.png",
      "difficulty": "intermediate",
      "description": "I have developed country's first computer-delivered mock test exactly like British Council so that you can be ready and feel comfortable in your final text. Using my online tests for IELTS preparation is proven to help students improve by 0.5 - 1.5. IELTS Mentor's unique feature allows users to “Locate” the answer within the passage and “Explain” why that answer is correct. Our community love this feature! IELTS Mentor has reached extensive cooperation with overseas institutions, international education non-profit organizations and IELTS test bureaus to provide a brand new IELTS learning platform for IELTS students around the world.",
      "duration": 10,
      "students": 88,
-     "price": 1200 
+     "price": 1200,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    },
    {
-     "id": 2,
      "title": "Complete IELTS Preparation",
      "url": "https://i.ibb.co/w6Fr2VX/2-1.png",
      "difficulty": "basic",
      "description": "I'll help you prepare for your IELTS exam. I'll teach you all the tips and tricks you need to know in order to ace the test. IELTS Mentor is currently the most visited website in over 12 countries with more than 30K students. I am aiming toward a community website that provides IELTS test questions and exam tips for free. Students can easily take the IELTS tests on the website to quickly improve their band scores through our modern e-learning platform. Moreover, we have developed an ecosystem centered around transnational education, online learning, and study abroad to assist students in pursuing international education.",
      "duration": 8,
      "students": 110,
-     "price": 28000
+     "price": 28000,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    },
    {
-     "id": 3,
      "title": "IELTS Listening Preparation",
      "url": "https://i.ibb.co/rx9BcwP/3-1.png",
      "difficulty": "intermediate",
      "description": "I'll help you prepare for your IELTS listening preparation. I'll teach you all the tips and tricks you need to know in order to ace the test. IELTS Mentor is currently the most visited website in over 12 countries with more than 30K students. I am aiming toward a community website that provides IELTS test questions and exam tips for free. Students can easily take the IELTS tests on the website to quickly improve their band scores through our modern e-learning platform. Moreover, we have developed an ecosystem centered around transnational education, online learning, and study abroad to assist students in pursuing international education.",
      "duration": 3,
      "students": 87,
-     "price": 7000
+     "price": 7000,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    },
    {
-     "id": 4,
      "title": "IELTS Reading Preparation",
      "url": "https://i.ibb.co/7yDf68Y/4-1.png",
      "difficulty": "intermediate",
      "description": "I'll help you prepare for your IELTS reading preparation. I'll teach you all the tips and tricks you need to know in order to ace the test. IELTS Mentor is currently the most visited website in over 12 countries with more than 30K students. I am aiming toward a community website that provides IELTS test questions and exam tips for free. Students can easily take the IELTS tests on the website to quickly improve their band scores through our modern e-learning platform. Moreover, we have developed an ecosystem centered around transnational education, online learning, and study abroad to assist students in pursuing international education.",
      "duration": 48,
      "students": 154,
-     "price": 8000
+     "price": 8000,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    },
    {
-     "id": 5,
      "title": "IELTS Writing Preparation",
      "url": "https://i.ibb.co/27fB9vk/5-1.png",
      "difficulty": "intermediate",
      "description": "I'll help you prepare for your IELTS writing preparation. I'll teach you all the tips and tricks you need to know in order to ace the test. IELTS Mentor is currently the most visited website in over 12 countries with more than 30K students. I am aiming toward a community website that provides IELTS test questions and exam tips for free. Students can easily take the IELTS tests on the website to quickly improve their band scores through our modern e-learning platform. Moreover, we have developed an ecosystem centered around transnational education, online learning, and study abroad to assist students in pursuing international education.",
      "duration": 24,
      "students": 637,
-     "price": 7000
+     "price": 7000,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    },
    {
-     "id": 6,
      "title": "IELTS Speaking Preparation",
      "url": "https://i.ibb.co/4mnLsCB/6-1.png",
      "difficulty": "intermediate",
      "description": "I'll help you prepare for your IELTS speaking preparation. I'll teach you all the tips and tricks you need to know in order to ace the test. IELTS Mentor is currently the most visited website in over 12 countries with more than 30K students. I am aiming toward a community website that provides IELTS test questions and exam tips for free. Students can easily take the IELTS tests on the website to quickly improve their band scores through our modern e-learning platform. Moreover, we have developed an ecosystem centered around transnational education, online learning, and study abroad to assist students in pursuing international education.",
      "duration": 8,
      "students": 3810,
-     "price": 12000
+     "price": 12000,
+     "reviews": [
+        {
+          "name": "Riaj Mahmud",
+          "image": "https://i.ibb.co/x69VqrX/1-male-avatar.png",
+          "text": "This is a really valuable course that includes lectures on how to approach various things and provides lots of test-taking strategies, tips and tricks. The video lectures offer in-depth explanations and lessons on all four sections of the IELTS exam. This course helped me clarify so many doubts and improved my test-taking abilities."
+        },
+        {
+          "name": "Masha Islam",
+          "image": "https://i.ibb.co/8mghxpj/2-female-avatar-1.png",
+          "text": " followed all the lessons and content rigorously and practised all the practice tests provided in the eBook. It is well-organized content, and I am highly impressed by the quality of the course content. It did help me boost my confidence and test performance."
+        },
+        {
+          "name": "Srabanti Chatterjee",
+          "image": "https://i.ibb.co/Tg9k2Tt/2-female-avatar-2.png",
+          "text": "Suhana Kapoor said, “It is far superior to all the other courses I encountered online. All thanks to IELTSMaterial and my trainer, I got the required band score for the IELTS exam, that too in my first attempt. I registered for the IELTS Mentor's program. It is a well-articulated course."
+        },
+        {
+          "name": "Subhashree Ganguly",
+          "image": "https://i.ibb.co/GkyPYsH/2-female-avatar-3.png",
+          "text": "It is an amazing website. After much searching, I discovered this website IELTSMaterial, which has by far the most legitimate and trustworthy materials. This website offers a wide range of free IELTS study materials, including a large range of practice activities based on the recent actual tests, vocabulary lessons, tips, techniques, and strategies for both Academic and General Training modules."
+        }
+      ]
    }
  ]

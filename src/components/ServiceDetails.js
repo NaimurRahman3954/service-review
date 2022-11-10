@@ -1,6 +1,9 @@
 import React from 'react'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 import { Link, useLoaderData } from 'react-router-dom'
+import AddReview from './AddReview'
+import MyReviews from './MyReviews'
+import Reviews from './Reviews'
 
 const ServiceDetails = () => {
   const service = useLoaderData()
@@ -134,7 +137,10 @@ const ServiceDetails = () => {
       </div>
       {/* Review Card */}
       <div className="container mx-auto my-12">
-        <h1 className="text-5xl font-bold mt-12 text-center">Reviews</h1>
+        <h1 className="text-5xl font-bold mt-16 text-center">Reviews</h1>
+        <Reviews></Reviews>
+        <MyReviews></MyReviews>
+        <AddReview></AddReview>
       </div>
     </div>
   )
