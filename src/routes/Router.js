@@ -1,6 +1,7 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import AddReview from '../components/AddReview'
+import AddService from '../components/AddService'
 import Blog from '../components/Blog'
 import Checkout from '../components/Checkout'
 import Home from '../components/Home'
@@ -71,6 +72,18 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <MyReviews></MyReviews>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(
+            `https://b6a11-service-review-server-side-naimur-rahman3954.vercel.app/reviews/`
+          ),
+      },
+      {
+        path: '/addservice/',
+        element: (
+          <PrivateRoute>
+            <AddService></AddService>
           </PrivateRoute>
         ),
         loader: ({ params }) =>
