@@ -1,6 +1,6 @@
 # IELTS Mentor
 
-Watch the [Live Site]().
+Watch the [Live Site](https://ielts-mentor-9c05a.web.app/).
 
 ## Features
 
@@ -24,4 +24,4 @@ Watch the [Live Site]().
 
 ## Technology used
 
-`React`, `Javascript`, `Tailwind CSS`, `DaisyUI`, `Firebase`, `Node`, `Express`, `MongoDB`, `Vercel`,
+`React`, `Javascript`, `Tailwind CSS`, `DaisyUI`, `Firebase`, `Node`, `Express`, `MongoDB`, `Vercel`
