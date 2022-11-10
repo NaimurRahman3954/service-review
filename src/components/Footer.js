@@ -55,10 +55,10 @@ const Footer = () => {
           </div>
         </footer>
         <footer className="footer px-10 py-8 border-t bg-base-200 text-base-content border-base-300">
-          <div className="items-center grid-flow-col">
+          <div className="items-center">
             {/* <img src="../assets/favicon.avif" alt="" /> */}
             <p className="font-bold text-primary">IELTS Mentor</p>
-            <p> - Providing quality education for more than 7 years.</p>
+            <p>Providing quality education for more than 7 years</p>
           </div>
           <div className="md:place-self-center md:justify-self-end">
             <div className="grid grid-flow-col gap-4">
