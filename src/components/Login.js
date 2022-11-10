@@ -8,17 +8,13 @@ const Login = () => {
   const [success, setSuccess] = useState(false)
   const { signIn, googleSignIn, githubSignIn } = useContext(AuthContext)
   const navigate = useNavigate()
-
   const handleFormSubmit = (event) => {
     event.preventDefault()
     setSuccess(false)
-
     const form = event.target
     const email = form.email.value
     const password = form.password.value
-
     setPasswordError('')
-
     signIn(email, password)
       .then((result) => {
         const user = result.user
@@ -60,14 +56,14 @@ const Login = () => {
     <div>
       <div className="flex flex-col items-center min-h-screen sm:justify-center sm:pt-0">
         <div className="w-full px-9 py-4 overflow-hidden bg-base-200 shadow-2xl sm:max-w-lg sm:rounded-lg mb-12">
-          <h1 className="text-2xl font-bold mt-4 mb-9 text-center text-gray-200">
+          <h1 className="text-2xl font-bold mt-4 mb-9 text-center text-gray-600">
             Log in to your account 🔐
           </h1>
           <form onSubmit={handleFormSubmit}>
             <div className="mt-4">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Email
               </label>
@@ -77,14 +73,14 @@ const Login = () => {
                   name="email"
                   placeholder="example@gmail.com"
                   required
-                  className="block w-full mt-1 p-1 px-3 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="block w-full mt-1 p-1 px-3 border-gray-600 rounded-md shadow-sm focus:border-indigo-400 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 />
               </div>
             </div>
             <div className="mt-4">
               <label
                 htmlFor="password"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Password
               </label>
@@ -98,7 +94,7 @@ const Login = () => {
                 />
               </div>
             </div>
-            <a href="/" className="text-xs text-info hover:underline">
+            <a href="#" className="text-xs text-primary hover:underline">
               Forgot Password?
             </a>
             <p className="text-danger my-2 text-secondary">{passwordError}</p>
@@ -116,7 +112,7 @@ const Login = () => {
             <span>
               <Link
                 to="/register"
-                className="text-info hover:underline"
+                className="text-primary hover:underline"
                 href="#"
               >
                 Register

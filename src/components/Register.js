@@ -56,14 +56,14 @@ const Register = () => {
     <div>
       <div className="flex flex-col items-center min-h-screen sm:justify-center sm:pt-0">
         <div className="w-full px-9 py-4 overflow-hidden bg-base-200 shadow-2xl sm:max-w-lg sm:rounded-lg mb-12">
-          <h1 className="text-2xl font-bold mt-4 mb-9 text-center text-gray-200">
+          <h1 className="text-2xl font-bold mt-4 mb-9 text-center text-gray-600">
             Register your account 🖊️
           </h1>
           <form onSubmit={handleRegister}>
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Full Name
               </label>
@@ -73,14 +73,14 @@ const Register = () => {
                   name="name"
                   placeholder="your name"
                   required
-                  className="block w-full mt-1 p-1 px-3 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="block w-full mt-1 p-1 px-3 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 />
               </div>
             </div>
             <div className="mt-4">
               <label
                 htmlFor="photoURL"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Photo URL
               </label>
@@ -90,14 +90,14 @@ const Register = () => {
                   name="photoURL"
                   placeholder="photo URL"
                   required
-                  className="block w-full mt-1 p-1 px-3 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="block w-full mt-1 p-1 px-3 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 />
               </div>
             </div>
             <div className="mt-4">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Email
               </label>
@@ -107,14 +107,14 @@ const Register = () => {
                   name="email"
                   placeholder="example@gmail.com"
                   required
-                  className="block w-full mt-1 p-1 px-3 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="block w-full mt-1 p-1 px-3 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 />
               </div>
             </div>
             <div className="mt-4">
               <label
                 htmlFor="password"
-                className="block text-sm font-medium text-gray-300 undefined"
+                className="block text-sm font-medium text-gray-600 undefined"
               >
                 Password
               </label>
@@ -124,11 +124,11 @@ const Register = () => {
                   name="password"
                   placeholder="your password"
                   required
-                  className="block w-full mt-1 p-1 px-3 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="block w-full mt-1 p-1 px-3 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 />
               </div>
             </div>
-            <a href="/" className="text-xs text-info hover:underline">
+            <a href="#" className="text-xs text-primary hover:underline">
               Forget Password?
             </a>
             <p className="text-danger my-2 text-secondary">{passwordError}</p>
@@ -144,7 +144,7 @@ const Register = () => {
           <div className="my-4 text-gray-400">
             Already have an account?{' '}
             <span>
-              <Link className="text-info hover:underline" to="/login">
+              <Link className="text-primary hover:underline" to="/login">
                 Log in
               </Link>
             </span>

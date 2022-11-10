@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 const ServiceCard = (props) => {
   const { id, title, url, description, duration, students, price } =
@@ -8,8 +9,12 @@ const ServiceCard = (props) => {
     <div>
       <div className="m-5">
         <div className="card w-96 bg-base-200 outline outline-1 outline-base-300">
-          <figure className="m-3 my-9 h-60">
-            <img src={url} alt="" width={200} height={200} />
+          <figure className="h-60 m-3">
+            <PhotoProvider>
+              <PhotoView src={url}>
+                <img src={url} alt="" width={250} height={250} />
+              </PhotoView>
+            </PhotoProvider>
           </figure>
           <div className="card-body bg-base-100">
             <h2 className="card-title">{title}</h2>

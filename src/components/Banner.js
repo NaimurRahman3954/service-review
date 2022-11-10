@@ -1,10 +1,4 @@
 import React from 'react'
-import image1 from '../assets/1.svg'
-import image2 from '../assets/2.svg'
-import image3 from '../assets/3.svg'
-import image4 from '../assets/4.svg'
-import image5 from '../assets/5.svg'
-import image6 from '../assets/6.svg'
 
 const Banner = () => {
   return (
@@ -12,7 +6,11 @@ const Banner = () => {
       <div className="carousel w-full border-1">
         <div id="slide1" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={image1} className=" max-w-sm mr-16" alt="" />
+            <img
+              src="https://i.ibb.co/q0p5DQt/1-1.png"
+              className=" max-w-sm mr-16"
+              alt=""
+            />
             <div className="text-left pl-24">
               <h1 className="text-5xl font-bold">
                 Computer-delivered IELTS Mock Test
@@ -37,7 +35,11 @@ const Banner = () => {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={image2} className=" max-w-sm mr-16" alt="" />
+            <img
+              src="https://i.ibb.co/w6Fr2VX/2-1.png"
+              className=" max-w-sm mr-16"
+              alt=""
+            />
             <div className="text-left ml-24">
               <h1 className="text-5xl font-bold">
                 Complete IELTS Preparation Mentorship Program
@@ -61,7 +63,11 @@ const Banner = () => {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={image3} className=" max-w-sm mr-16" alt="" />
+            <img
+              src="https://i.ibb.co/rx9BcwP/3-1.png"
+              className=" max-w-sm mr-16"
+              alt=""
+            />
             <div className="text-left ml-24">
               <h1 className="text-5xl font-bold">
                 IELTS Listening Preparation Mentorship Program
@@ -85,7 +91,11 @@ const Banner = () => {
         </div>
         <div id="slide4" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={image4} className=" max-w-sm mr-16" alt="" />
+            <img
+              src="https://i.ibb.co/7yDf68Y/4-1.png"
+              className=" max-w-sm mr-16"
+              alt=""
+            />
             <div className="text-left ml-24">
               <h1 className="text-5xl font-bold">
                 IELTS Reading Preparation Mentorship Program

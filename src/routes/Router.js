@@ -6,6 +6,7 @@ import Home from '../components/Home'
 import Login from '../components/Login'
 import PageNotFound from '../components/PageNotFound'
 import Register from '../components/Register'
+import Services from '../components/Services'
 import Main from '../layout/Main'
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Home></Home>,
+      },
+      {
+        path: '/services',
+        element: <Services></Services>,
       },
       {
         path: '/services/review',

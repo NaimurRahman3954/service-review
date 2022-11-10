@@ -1,12 +1,15 @@
 import React from 'react'
-import contactImage from '../assets/contact.svg'
 
 const Contact = () => {
   return (
     <div className="container mx-auto p-0 lg:p-12" id="contact">
       {/* <h3>This is about me</h3> */}
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={contactImage} className="max-w-lg" alt="" />
+        <img
+          src="https://i.ibb.co/34Fk56F/contact-1.png"
+          className="max-w-lg"
+          alt=""
+        />
         <div className="text-left">
           <div className="card max-w-lg  bg-base-100">
             <div className="card-body">

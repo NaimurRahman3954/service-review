@@ -1,12 +1,15 @@
 import React from 'react'
-import myImage from '../assets/me.svg'
 
 const AboutMe = () => {
   return (
     <div className="container mx-auto p-0 lg:p-12" id="about-me">
       {/* <h3>This is about me</h3> */}
       <div className="hero-content flex-col lg:flex-row">
-        <img src={myImage} className="max-w-lg" alt="" />
+        <img
+          src="https://i.ibb.co/r3x0zpy/me-1.png"
+          className="max-w-lg"
+          alt=""
+        />
         <div className="text-left p-10">
           <h1 className="text-5xl font-bold">About Me</h1>
           <p className="py-6">
