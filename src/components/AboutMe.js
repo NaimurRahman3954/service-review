@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img
           src="https://i.ibb.co/r3x0zpy/me-1.png"
-          className="max-w-lg px-6"
+          className="max-w-lg px-6 lg:px-0"
           alt=""
         />
         <div className="text-left p-10">
