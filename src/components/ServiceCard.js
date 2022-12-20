@@ -43,7 +43,7 @@ const ServiceCard = (props) => {
                 {students} students enrolled
               </div>
             </div>
-            <div className="badge badge-warning font-extrabold my-3 p-3">
+            <div className="badge badge-success font-extrabold my-3 p-3">
               ৳ {price}
             </div>
             <div className="flex align-middle">
