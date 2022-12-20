@@ -58,7 +58,7 @@ const ServiceDetails = () => {
                 </PhotoView>
               </PhotoProvider>
             </figure>
-            <div className="card-body bg-base-200">
+            <div className="card-body bg-base-200 rounded-b-2xl">
               <h2 className="card-title font-bold mb-6">{title}</h2>
               <div className="card-actions justify-start">
                 <p>

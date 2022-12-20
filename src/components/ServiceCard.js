@@ -16,7 +16,7 @@ const ServiceCard = (props) => {
               </PhotoView>
             </PhotoProvider>
           </figure>
-          <div className="card-body bg-base-200">
+          <div className="card-body bg-base-200 rounded-b-2xl">
             <h2 className="card-title">{title}</h2>
             <p className="text-sm text-justify py-2">
               {description.slice(0, 140)}...
