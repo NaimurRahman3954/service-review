@@ -16,7 +16,7 @@ const Contact = () => {
               <h1 className="text-5xl font-bold mb-6">Seats are Limited!</h1>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  {/* <span className="label-text">Name</span> */}
                 </label>
                 <input
                   type="text"
@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  {/* <span className="label-text">Email</span> */}
                 </label>
                 <input
                   type="text"
@@ -36,10 +36,10 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Message</span>
+                  {/* <span className="label-text">Message</span> */}
                 </label>
                 <textarea
-                  className="textarea textarea-primary"
+                  className="textarea textarea-primary h-32"
                   placeholder="message"
                 ></textarea>
               </div>
