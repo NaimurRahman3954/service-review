@@ -8,10 +8,10 @@ const Banner = () => {
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img
               src="https://i.ibb.co/q0p5DQt/1-1.png"
-              className=" max-w-sm mr-16"
+              className=" max-w-sm lg:mr-16"
               alt=""
             />
-            <div className="text-left pl-24">
+            <div className="text-left px-9 lg:pl-24">
               <h1 className="text-5xl font-bold">
                 Computer-delivered IELTS Mock Test
               </h1>

@@ -3,6 +3,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view'
 import { Link, useLoaderData } from 'react-router-dom'
 import AddReview from './AddReview'
 import MyReviews from './MyReviews'
+import ReviewCard from './ReviewCard'
 import Reviews from './Reviews'
 
 const ServiceDetails = () => {
