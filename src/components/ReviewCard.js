@@ -8,7 +8,7 @@ const ReviewCard = (props) => {
         <figure className="p-10">
           <img src={image} alt="" className="rounded-xl" />
         </figure>
-        <div className="card-body items-center text-center bg-base-200">
+        <div className="card-body items-center text-center bg-base-200 rounded-b-2xl">
           <h2 className="card-title">{name}</h2>
           <h2 className="card-title text-gray-400">❝</h2>
           <p className="h-44 py-auto">{text.slice(0, 250)}...</p>
