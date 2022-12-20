@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const AboutMe = () => {
   return (
-    <div className="container mx-auto px-6 lg:p-12 " id="about-me">
+    <div className="container mx-auto lg:p-12 " id="about-me">
       <div className="hero-content flex-col lg:flex-row">
         <img
           src="https://i.ibb.co/r3x0zpy/me-1.png"
-          className="max-w-lg"
+          className="max-w-lg px-6"
           alt=""
         />
         <div className="text-left p-10">
@@ -18,7 +19,9 @@ const AboutMe = () => {
             computer-delivered mock test exactly like British Council so that
             you can be ready and feel comfortable in your final text.
           </p>
-          <button className="btn btn-primary">Explore Services</button>
+          <Link to="/services">
+            <button className="btn btn-primary">Explore Services</button>
+          </Link>
         </div>
       </div>
     </div>
