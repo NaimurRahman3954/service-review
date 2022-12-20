@@ -25,7 +25,7 @@ const Stats = () => {
           <div className="stat-desc">Jan 1st, 2016 - Present</div>
         </div>
 
-        <div className="stat">
+        <div className="stat outline outline-t-1  outline-base-300">
           <div className="stat-figure text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const Stats = () => {
           </div>
           <div className="stat-title">New Registers</div>
           <div className="stat-value text-primary">4,200</div>
-          <div className="stat-desc">↗︎ 400 (22%)</div>
+          <div className="stat-desc">↗︎ 400 (22% more than last month)</div>
         </div>
 
         <div className="stat">
@@ -64,7 +64,7 @@ const Stats = () => {
           </div>
           <div className="stat-title">Satisfaction</div>
           <div className="stat-value text-success">99%</div>
-          <div className="stat-desc">↗︎ 90 (14%)</div>
+          <div className="stat-desc">99% students recommend to their peers</div>
         </div>
       </div>
     </div>
