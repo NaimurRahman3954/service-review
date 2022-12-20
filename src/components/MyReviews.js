@@ -25,17 +25,18 @@ const MyReviews = () => {
   return (
     <div className="container mx-auto my-10 text-center">
       <>
-        {loading ? (
+        {/* {loading ? (
           <button className="btn loading bg-primary my-16">
             Your reviews will be shown here after your add them in service page{' '}
           </button>
-        ) : (
-          <div className="flex flex-wrap align-middle justify-center">
-            {reviews.map((review) => (
-              <MyReviewCard key={review.name} review={review}></MyReviewCard>
-            ))}
-          </div>
-        )}
+        ) : ( */}
+        <div className="flex flex-wrap align-middle justify-center">
+          {reviews.map((review) => (
+            <MyReviewCard key={review.name} review={review}></MyReviewCard>
+          ))}
+        </div>
+        {/* ) */}
+        {/* } */}
       </>
     </div>
   )
