@@ -3,7 +3,7 @@ import React from 'react'
 const Stats = () => {
   return (
     <div className="">
-      <div className="container mx-auto mb-9 stats w-4/5 outline outline-1 outline-base-300 flex flex-col lg:flex-row">
+      <div className="container mx-auto m-9 lg:mt-0 lg:mb-9 stats w-4/5 outline outline-1 outline-base-300 flex flex-col lg:flex-row">
         <div className="stat">
           <div className="stat-figure text-secondary">
             <svg
@@ -20,7 +20,7 @@ const Stats = () => {
               ></path>
             </svg>
           </div>
-          <div className="stat-title">Students Mentored</div>
+          <div className="stat-title font-bold">Students Mentored</div>
           <div className="stat-value text-secondary">31K</div>
           <div className="stat-desc">Jan 1st, 2016 - Present</div>
         </div>
@@ -41,7 +41,7 @@ const Stats = () => {
               ></path>
             </svg>
           </div>
-          <div className="stat-title">New Registers</div>
+          <div className="stat-title font-bold">New Registers</div>
           <div className="stat-value text-primary">4,200</div>
           <div className="stat-desc">↗︎ 400 (22% more than last month)</div>
         </div>
@@ -62,7 +62,7 @@ const Stats = () => {
               ></path>
             </svg>
           </div>
-          <div className="stat-title">Satisfaction</div>
+          <div className="stat-title font-bold">Satisfaction</div>
           <div className="stat-value text-success">99%</div>
           <div className="stat-desc">99% students recommend to their peers</div>
         </div>
