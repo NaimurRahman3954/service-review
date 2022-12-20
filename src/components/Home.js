@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AboutMe from './AboutMe'
 import Banner from './Banner'
 import Contact from './Contact'
 import Services from './Services'
+import Stats from './Stats'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <button className="btn btn-primary mb-6">See All →</button>
       </Link>
       <AboutMe></AboutMe>
+      <Stats></Stats>
       <Contact></Contact>
     </div>
   )
