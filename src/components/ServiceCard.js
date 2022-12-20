@@ -19,7 +19,7 @@ const ServiceCard = (props) => {
           <div className="card-body bg-base-200">
             <h2 className="card-title">{title}</h2>
             <p className="text-sm text-justify py-2">
-              {description.slice(0, 100)}...
+              {description.slice(0, 140)}...
             </p>
             <div className="card-actions justify-start">
               <div className="badge badge-outline">
