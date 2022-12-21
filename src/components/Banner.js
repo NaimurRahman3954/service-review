@@ -25,7 +25,24 @@ const Banner = () => {
           </div>
         </div>
         <div id="item2" className="carousel-item w-full">
-          <img src="https://placeimg.com/800/200/arch" className="w-full" />
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://i.ibb.co/w6Fr2VX/2-1.png"
+              className=" max-w-sm mr-16"
+              alt=""
+            />
+            <div className="text-left ml-24">
+              <h1 className="text-5xl font-bold">
+                Complete IELTS Preparation Mentorship Program
+              </h1>
+              <p className="py-6">
+                I will guide you throughout your IELTS journey and help you
+                achieve the best score that will eventually lead you to a
+                successful career.
+              </p>
+              <button className="btn btn-primary">Learn More</button>
+            </div>
+          </div>
         </div>
         <div id="item3" className="carousel-item w-full">
           <img src="https://placeimg.com/800/200/arch" className="w-full" />
