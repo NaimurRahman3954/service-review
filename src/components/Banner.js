@@ -3,6 +3,52 @@ import React from 'react'
 const Banner = () => {
   return (
     <div className="container mx-auto">
+      <div className="carousel w-full">
+        <div id="item1" className="carousel-item w-full">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://i.ibb.co/q0p5DQt/1-1.png"
+              className=" max-w-sm lg:mr-16"
+              alt=""
+            />
+            <div className="text-left px-9 lg:pl-24">
+              <h1 className="text-5xl font-bold">
+                Computer-delivered IELTS Mock Test
+              </h1>
+              <p className="py-6">
+                I have developed country's first computer-delivered mock test
+                exactly like British Council so that you can be ready and feel
+                comfortable in your final text.
+              </p>
+              <button className="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div id="item2" className="carousel-item w-full">
+          <img src="https://placeimg.com/800/200/arch" className="w-full" />
+        </div>
+        <div id="item3" className="carousel-item w-full">
+          <img src="https://placeimg.com/800/200/arch" className="w-full" />
+        </div>
+        <div id="item4" className="carousel-item w-full">
+          <img src="https://placeimg.com/800/200/arch" className="w-full" />
+        </div>
+      </div>
+      <div className="flex justify-center w-full py-2 gap-2">
+        <a href="#item1" className="btn btn-xs btn-outline">
+          1
+        </a>
+        <a href="#item2" className="btn btn-xs btn-outline">
+          2
+        </a>
+        <a href="#item3" className="btn btn-xs btn-outline">
+          3
+        </a>
+        <a href="#item4" className="btn btn-xs btn-outline">
+          4
+        </a>
+      </div>
+      {/* ----------- */}
       <div className="carousel w-full border-1">
         <div id="slide1" className="carousel-item relative w-full">
           <div className="hero-content flex-col lg:flex-row-reverse">
