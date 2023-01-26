@@ -46,14 +46,19 @@ const Header = () => {
   )
 
   return (
-    <div className=" bg-base-200 mx-auto py-2">
-      <div className="navbar container mx-auto">
+    <div className="bg-base-200 mx-auto py-2">
+      <div className="navbar container mx-auto flex justify-center align-middle">
         <div className="navbar-start">
           <Link
             to="/"
-            className="btn btn-ghost normal-case text-xl font-bold text-primary"
+            className="btn btn-ghost normal-case text-xl font-bold text-primary font-mono"
           >
             IELTS Mentor
+            {/* <img
+              src="https://i.ibb.co/YX56hfJ/ielts-mentor-logo.png"
+              alt=""
+              className="h-24"
+            /> */}
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
